@@ -38,7 +38,12 @@ public class App {
 				if (wiseSayings.size() == 0) {
 					System.out.println("등록 된 명언이 없어");
 				} else {
-					System.out.println("있던데???");
+					for (int i = wiseSayings.size() - 1; i >= 0; i--) {
+						WiseSaying a = wiseSayings.get(i);
+						System.out.println(a.getId() + "/" + a.getAuthor() + "/" + a.getContent());
+
+					}
+
 					System.out.println("등록 된 명언 수 : " + wiseSayings.size());
 				}
 			} else {
