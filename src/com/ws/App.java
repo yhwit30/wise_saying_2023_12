@@ -5,7 +5,7 @@ import com.ws.wiseSaying.controller.WiseSayingController;
 
 public class App {
 
-	byte system_status = 1;
+	private byte system_status = 1;
 
 	public App() {
 
