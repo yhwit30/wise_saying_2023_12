@@ -1,6 +1,11 @@
+package com.ws;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+
+import com.ws.wiseSaying.entity.WiseSaying;
+
 
 public class App {
 	private Scanner sc;
