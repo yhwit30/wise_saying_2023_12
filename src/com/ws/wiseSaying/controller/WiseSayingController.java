@@ -12,7 +12,6 @@ public class WiseSayingController {
 	private List<WiseSaying> wiseSayings;
 
 	public WiseSayingController() {
-
 		lastId = 0;
 		wiseSayings = new ArrayList<>();
 	}
@@ -46,6 +45,10 @@ public class WiseSayingController {
 			}
 
 		}
+
+	}
+
+	public void remove() {
 
 	}
 
