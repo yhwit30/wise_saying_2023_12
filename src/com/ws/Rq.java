@@ -35,15 +35,15 @@ public class Rq {
 
 	}
 
-	public String getActionCode() {
+	public String getActionCode() {			//자른 첫 단어 리턴
 		return actionCode;
 	}
 
-	public String getParam(String name) {
+	public String getParam(String name) {	//삭제를 위해 입력된 해쉬맵값을 리턴
 		return params.get(name);
 	}
 
-	public int getIntParam(String name, int defaultValue) {
+	public int getIntParam(String name, int defaultValue) {		//위에서 리턴한 해쉬맵값을 int형으로 나눠주는데 예외처리도 해줌
 		try {
 			return Integer.parseInt(getParam(name));
 		} catch (NumberFormatException e) {
