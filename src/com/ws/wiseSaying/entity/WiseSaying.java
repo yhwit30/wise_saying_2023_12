@@ -1,6 +1,6 @@
 package com.ws.wiseSaying.entity;
 
-public class WiseSaying {
+public class WiseSaying {				// 받은 입력값을 조립. 
 	private int id;
 	private String content;
 	private String author;
